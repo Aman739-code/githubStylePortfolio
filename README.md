@@ -1,5 +1,3 @@
-<![CDATA[<div align="center">
-
 # 🎯 DVA-Oriented Portfolio
 
 ### A GitHub-Profile-Style Portfolio for Data & Visual Analytics
@@ -9,13 +7,11 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aman-bhatnagar-150077325)
 [![LeetCode](https://img.shields.io/badge/LeetCode-350+_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Aman___Bhatnagar)
 
-<br/>
-
-<img src="https://avatars.githubusercontent.com/u/188833117?v=4" width="150" style="border-radius: 50%;" alt="Aman Bhatnagar"/>
-
-**Aman Bhatnagar** · CS & AI Major @ Newton School of Technology
-
-</div>
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/188833117?v=4" width="120" style="border-radius:50%" alt="Aman Bhatnagar"/>
+  <br/>
+  <strong>Aman Bhatnagar</strong> · CS & AI Major @ Newton School of Technology
+</p>
 
 ---
 
@@ -30,7 +26,7 @@ A pixel-perfect recreation of the **GitHub profile page** — reimagined as a re
 ## 🖼️ Preview
 
 | Section | Highlights |
-|---------|-----------|
+|---|---|
 | **Sidebar** | Circular avatar with glow animation, bio, social links, stats, skill pill badges |
 | **📌 Pinned Projects** | 2-column card grid mirroring GitHub's pinned repos with language dots, stars, forks, live demo badges |
 | **📊 Contributions** | SVG contribution heatmap (52×7 grid) with realistic activity distribution across 4 green shades |
@@ -42,7 +38,7 @@ A pixel-perfect recreation of the **GitHub profile page** — reimagined as a re
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
-|-------|-----------|
+|---|---|
 | **Framework** | React 19 + Vite |
 | **Styling** | Vanilla CSS (GitHub Dark Theme) |
 | **Charts** | Pure CSS bars + Inline SVG heatmap |
@@ -55,17 +51,16 @@ A pixel-perfect recreation of the **GitHub profile page** — reimagined as a re
 ## 🎨 Design System
 
 ```
-Background     #0d1117    ████████
-Card           #161b22    ████████
-Border         #30363d    ████████
-Green Accent   #238636    ████████
-Blue Accent    #58a6ff    ████████
-Primary Text   #c9d1d9    ████████
-Secondary      #8b949e    ████████
+Background    #0d1117   ████████
+Card          #161b22   ████████
+Border        #30363d   ████████
+Green Accent  #238636   ████████
+Blue Accent   #58a6ff   ████████
+Primary Text  #c9d1d9   ████████
+Secondary     #8b949e   ████████
 ```
 
-**Heatmap Shades:**
-`#161b22` → `#0e4429` → `#006d32` → `#26a641` → `#39d353`
+**Heatmap Shades:** `#161b22` → `#0e4429` → `#006d32` → `#26a641` → `#39d353`
 
 ---
 
@@ -73,17 +68,17 @@ Secondary      #8b949e    ████████
 
 ```
 src/
-├── App.jsx              # Root component
-├── App.css              # All component styles + responsive
-├── index.css            # Global reset, CSS vars, keyframes
-├── GitHubPortfolio.jsx  # Two-column layout wrapper
-├── Sidebar.jsx          # Profile sidebar (avatar, bio, links, skills)
-├── PinnedProjects.jsx   # 6 pinned repo cards
-├── Heatmap.jsx          # SVG contribution heatmap (52×7)
-├── TechStack.jsx        # Animated CSS bar chart
-├── ReadmeCard.jsx       # Profile README card
-├── Icons.jsx            # SVG icon components
-└── heatmapData.js       # Heatmap data generator
+├── App.jsx                # Root component
+├── App.css                # All component styles + responsive
+├── index.css              # Global reset, CSS vars, keyframes
+├── GitHubPortfolio.jsx    # Two-column layout wrapper
+├── Sidebar.jsx            # Profile sidebar (avatar, bio, links, skills)
+├── PinnedProjects.jsx     # 6 pinned repo cards
+├── Heatmap.jsx            # SVG contribution heatmap (52×7)
+├── TechStack.jsx          # Animated CSS bar chart
+├── ReadmeCard.jsx         # Profile README card
+├── Icons.jsx              # SVG icon components
+└── heatmapData.js         # Heatmap data generator
 ```
 
 ---
@@ -109,7 +104,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 ## 📌 Featured Projects
 
 | Project | Description | Tech |
-|---------|------------|------|
+|---|---|---|
 | [**E_G1_DVACapstone2**](https://github.com/Aman739-code/E_G1_DVACapstone2) | Amazon Electronics analytics capstone — ETL, EDA, Tableau dashboards | Jupyter, Python, Tableau |
 | [**GenAI_Capstone2**](https://github.com/Aman739-code/GenAI_Capstone2) | Solar grid optimization with LangGraph + RAG agentic workflow | Python, LangGraph, Streamlit |
 | [**Scholar-Sync**](https://github.com/Aman739-code/Scholar-Sync) | Full-stack LMS with role-based dashboards | React, Node.js, MongoDB |
@@ -153,13 +148,12 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-<div align="center">
-
-**Built with ❤️ by [Aman Bhatnagar](https://github.com/Aman739-code)**
-
-*CS & AI Major @ Newton School of Technology*
-
-[![Stars](https://img.shields.io/github/stars/Aman739-code/dvaOrientedPortfolio?style=social)](https://github.com/Aman739-code/dvaOrientedPortfolio)
-
-</div>
-]]>
+<p align="center">
+  Built with ❤️ by <a href="https://github.com/Aman739-code"><strong>Aman Bhatnagar</strong></a>
+  <br/>
+  <em>CS & AI Major @ Newton School of Technology</em>
+  <br/><br/>
+  <a href="https://github.com/Aman739-code/dvaOrientedPortfolio">
+    <img src="https://img.shields.io/github/stars/Aman739-code/dvaOrientedPortfolio?style=social" alt="Stars"/>
+  </a>
+</p>
