@@ -1,10 +1,9 @@
 import React from 'react';
 import { LocationIcon, LinkIcon, GHIcon, LCIcon, LinkedInIcon, StarIcon, ForkIcon, RepoIcon } from './Icons';
 
-const skills = ['Python','SQL','Tableau','Jupyter','Pandas','NumPy','Scikit-learn','LangGraph','FAISS','Streamlit','React','Node.js','MongoDB'];
+const skills = ['Python','SQL','Tableau','Power BI','Jupyter','Pandas','NumPy','Scikit-learn','Excel','Google Sheets','LangGraph','FAISS','Streamlit','Data Visualization','Statistical Analysis'];
 
 const links = [
-  { icon: <LinkIcon />, label: 'macfolio-beryl.vercel.app', href: 'https://macfolio-beryl.vercel.app' },
   { icon: <LinkedInIcon />, label: 'LinkedIn', href: 'https://www.linkedin.com/in/aman-bhatnagar-150077325' },
   { icon: <GHIcon />, label: 'Aman739-code', href: 'https://github.com/Aman739-code' },
   { icon: <LCIcon />, label: 'LeetCode', href: 'https://leetcode.com/u/Aman___Bhatnagar' },
@@ -23,7 +22,7 @@ export default function Sidebar() {
       <div className="name">Aman Bhatnagar</div>
       <div className="username">@Aman739-code</div>
       <p className="bio">
-        CS &amp; AI Major @ Newton School of Technology | 350+ LeetCode Problems | 1550+ Contest Rating | Full-Stack &amp; Data Engineer
+        CS &amp; AI Major @ Newton School of Technology | Data &amp; Visual Analytics Enthusiast | Turning raw data into visual stories and actionable insights
       </p>
 
       <ul className="sidebar-links">

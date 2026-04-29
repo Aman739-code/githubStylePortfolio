@@ -2,10 +2,12 @@ import React, { useEffect, useState } from 'react';
 
 const techData = [
   { label: 'Python', pct: 95 },
-  { label: 'Jupyter & EDA', pct: 90 },
-  { label: 'SQL & Data Wrangling', pct: 88 },
-  { label: 'React & Full-Stack', pct: 85 },
-  { label: 'Tableau & Data Viz', pct: 82 },
+  { label: 'Jupyter & EDA', pct: 92 },
+  { label: 'SQL & Data Wrangling', pct: 90 },
+  { label: 'Tableau & Power BI', pct: 88 },
+  { label: 'Excel & Google Sheets', pct: 85 },
+  { label: 'Statistical Analysis', pct: 82 },
+  { label: 'Data Visualization', pct: 80 },
   { label: 'Machine Learning', pct: 78 },
   { label: 'LangGraph, RAG & GenAI', pct: 75 },
 ];

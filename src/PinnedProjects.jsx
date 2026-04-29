@@ -3,14 +3,6 @@ import { RepoIcon, StarIcon, ForkIcon } from './Icons';
 
 const pins = [
   {
-    name: 'E_G1_DVACapstone2',
-    url: 'https://github.com/Aman739-code/E_G1_DVACapstone2',
-    desc: 'End-to-end Data Analytics Capstone on Amazon Electronics — Python ETL pipelines, EDA, statistical analysis in Jupyter Notebooks, and an interactive Tableau dashboard with KPIs, univariate and bivariate analysis',
-    lang: 'Jupyter Notebook', langColor: '#DA5B0B',
-    stars: 2, forks: 2,
-    demo: { label: 'Tableau', url: 'https://public.tableau.com/views/AmazonElectronicsMarketIntelligenceDashboard/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link' },
-  },
-  {
     name: 'GenAI_Capstone2',
     url: 'https://github.com/Aman739-code/GenAI_Capstone2',
     desc: 'Intelligent agentic system combining solar energy forecasting with a LangGraph multi-node workflow and RAG-based decision-making to optimize grid operations. Deployed on Streamlit.',
@@ -19,36 +11,19 @@ const pins = [
     demo: { label: 'Live Demo', url: 'https://genaicapstone2.streamlit.app' },
   },
   {
-    name: 'Scholar-Sync',
-    url: 'https://github.com/Aman739-code/Scholar-Sync',
-    desc: 'Full-stack LMS with React, Node.js, TypeScript, and MongoDB featuring role-based dashboards for students and instructors with course management, assignments, and grading analytics',
-    lang: 'JavaScript', langColor: '#f1e05a',
-    stars: 0,
-    demo: { label: 'Live', url: 'https://scholar-sync-frontend-eight.vercel.app' },
+    name: 'CapstoneDVA-E13',
+    url: 'https://github.com/ratinto/CapstoneDVA-E13',
+    desc: 'Data-driven crime analysis of LAPD records (2020-2024) — hotspot zone identification, peak crime windows, case closure performance analysis, and an interactive decision-support dashboard for public safety planning.',
+    lang: 'Jupyter Notebook', langColor: '#DA5B0B',
+    stars: 0, forks: 0,
   },
   {
-    name: 'green-cart',
-    url: 'https://github.com/Aman739-code/green-cart',
-    desc: 'Full-stack MERN grocery delivery app with JWT auth, Stripe payments, and role-based access including a seller analytics dashboard. Deployed on Vercel and Render.',
-    lang: 'JavaScript', langColor: '#f1e05a',
-    stars: 1,
-    demo: { label: 'Live', url: 'https://green-cart-frontend-delta.vercel.app' },
-  },
-  {
-    name: 'macFolio',
-    url: 'https://github.com/Aman739-code/macFolio',
-    desc: 'macOS-inspired personal portfolio built with React and Vite featuring a desktop-like UI with smooth animations and project showcase. Deployed live.',
-    lang: 'JavaScript', langColor: '#f1e05a',
-    stars: 1,
-    demo: { label: 'Live', url: 'https://macfolio-beryl.vercel.app' },
-  },
-  {
-    name: 'carRental',
-    url: 'https://github.com/Aman739-code/carRental',
-    desc: 'Full-stack car rental platform with a React frontend and Node.js backend supporting car browsing and rental functionality. Deployed on Vercel.',
-    lang: 'JavaScript', langColor: '#f1e05a',
-    stars: 2,
-    demo: { label: 'Live', url: 'https://car-rental-indol-delta.vercel.app' },
+    name: 'E_G1_DVACapstone2',
+    url: 'https://github.com/Aman739-code/E_G1_DVACapstone2',
+    desc: 'End-to-end Data Analytics Capstone on Amazon Electronics — Python ETL pipelines, EDA, statistical analysis in Jupyter Notebooks, and an interactive Tableau dashboard with KPIs, univariate and bivariate analysis.',
+    lang: 'Jupyter Notebook', langColor: '#DA5B0B',
+    stars: 2, forks: 2,
+    demo: { label: 'Tableau', url: 'https://public.tableau.com/views/AmazonElectronicsMarketIntelligenceDashboard/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link' },
   },
 ];
 
